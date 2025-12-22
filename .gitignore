@@ -1,0 +1,33 @@
+# Data Files - too large for Git
+*.csv
+!aami2_rr.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+*.iml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Results/Output (regenerated from code)
+results/
+output/
+*.png
+*.jpg
+
+# Model files
+*.pkl
+*.joblib
+*.h5
